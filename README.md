@@ -1,5 +1,16 @@
 # Martes-Noche-P2-EquipoUndefined
 
+## Integrantes equipo undefined
+
+| Nombre                 | Legajo  |
+| :--------------------- | :------ |
+| Acevedo Agustin        |         |
+| de la Fuente Sebastián | 1220681 |
+| Garcia Leonel          |         |
+| Herrera manuel alvaro  |         |
+| Ruiz Diaz Luka         |         |
+| Yoe Hernan             |         |
+
 ## Actividad pilas - colas 17-03-2026
 
 ### actividad 1:
