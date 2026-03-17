@@ -2,11 +2,11 @@
 
 ## Actividad pilas - colas 17-03-2026
 
+### actividad 1:
+
+[Ir a la actividad](actividadPilasColas17032026/actividad1.md) | [Ver](actividadPilasColas17032026/activadadPilaColas17032026.svg)
+
 ### actividad 2:
-
-[Ir a la actividad](actividadPilasColas17032026/activadadPilaColas17032026.svg)
-
-### actividad 3:
 
 #### Estrategia 1:
 
