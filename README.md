@@ -4,10 +4,10 @@
 
 | Nombre                 | Legajo  |
 | :--------------------- | :------ |
-| Acevedo Agustin        |         |
+| Acevedo Agustin        | 1219466 |
 | de la Fuente Sebastián | 1220681 |
-| Garcia Leonel          |         |
-| Herrera manuel alvaro  |         |
+| Garcia Leonel          | 1223947 |
+| Herrera manuel alvaro  | 1164449 |
 | Ruiz Diaz Luka         |         |
 | Yoe Hernan             |         |
 
