@@ -9,7 +9,7 @@
 | Garcia Leonel          | 1223947 |
 | Herrera manuel alvaro  | 1164449 |
 | Ruiz Diaz Luka         |         |
-| Yoe Hernan             |         |
+| Yoe Hernan             | 1222528 |
 
 ## Actividad pilas - colas 17-03-2026
 
