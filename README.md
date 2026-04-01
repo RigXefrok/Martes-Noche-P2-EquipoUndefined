@@ -7,7 +7,7 @@
 | Acevedo Agustin        | 1219466 |
 | de la Fuente Sebastián | 1220681 |
 | Garcia Leonel          | 1223947 |
-| Herrera manuel alvaro  | 1164449 |
+| Herrera Manuel Alvaro  | 1164449 |
 | Ruiz Diaz Luka         |         |
 | You Hernan             | 1222528 |
 
