@@ -13,6 +13,10 @@ public class Main {
         impresoraLaboratorio();
         guardiaHospitalClinica();
         examenFinal();
+        buffetFacultad();
+        osScheduler();
+        embarqueAerolineas();
+        distribucionTickets();
     }
 
     static void filaDelCajero() {
@@ -95,5 +99,97 @@ public class Main {
         examenFinal.desacolar();
 
         // si un regular llega a las 8.00h pm pero un promocionado llega a las 8.30h pm el promocionado va a salir antes que el regular.
+    }
+
+    static void buffetFacultad() {
+        ColaEstaticaString buffetFacultad = new ColaEstaticaString();
+        buffetFacultad.inicializarCola();
+        buffetFacultad.acolar("Pepito");
+        buffetFacultad.acolar("Juan");
+        buffetFacultad.acolar("Jose");
+        buffetFacultad.acolar("Jorge");
+        System.out.println(buffetFacultad.colaVacia()); // false
+        System.out.println("El primero en usar el cajero va a ser el: " + buffetFacultad.primero());
+        buffetFacultad.desacolar(); //Pepito
+        buffetFacultad.desacolar(); //Juan
+        buffetFacultad.desacolar(); //Jose
+        buffetFacultad.desacolar(); //Jorge
+        System.out.println(buffetFacultad.colaVacia()); // true
+    }
+
+    static void osScheduler() {
+        ColaPrioridadEstaticaString osScheduler = new ColaPrioridadEstaticaString();
+        osScheduler.inicializarColaPrioridad();
+
+        osScheduler.acolarPrioridad("proceso1", 50);
+        osScheduler.acolarPrioridad("proceso2", 50);
+        osScheduler.acolarPrioridad("proceso3", 10);
+        osScheduler.acolarPrioridad("proceso4", 50);
+        osScheduler.acolarPrioridad("proceso5", 10);
+
+        System.out.println("Procesando: " + osScheduler.primero()); // proceso1
+        osScheduler.desacolar();
+        System.out.println("Procesando: " + osScheduler.primero()); // proceso2
+        osScheduler.desacolar();
+        System.out.println("Procesando: " + osScheduler.primero()); // proceso4
+        osScheduler.desacolar();
+        System.out.println("Procesando: " + osScheduler.primero()); // proceso3
+        osScheduler.desacolar();
+        System.out.println("Procesando: " + osScheduler.primero()); // proceso5
+        osScheduler.desacolar();
+
+        // si el sistema se sobrecarga al utilizar una cola con prioridad los primeros procesos en procesarse
+        // son los de prioridad 50 (procesos del sistema) y despues de que se hayan procesado los procesos del
+        // sistema se procesarán los procesos de aplicaciones como spotify con prioridad 10
+    }
+
+    static void embarqueAerolineas() {
+        System.out.println("embarqueAerolineas");
+
+        ColaPrioridadEstaticaString embarqueAerolineas = new ColaPrioridadEstaticaString();
+        embarqueAerolineas.inicializarColaPrioridad();
+
+        embarqueAerolineas.acolarPrioridad("pasajero1", 1);
+        embarqueAerolineas.acolarPrioridad("pasajero2", 1);
+        embarqueAerolineas.acolarPrioridad("pasajero3", 2);
+        embarqueAerolineas.acolarPrioridad("pasajero4", 2);
+        embarqueAerolineas.acolarPrioridad("pasajero5", 3);
+
+        System.out.println("Abordando pasajero: " + embarqueAerolineas.primero()); // pasajero5
+        embarqueAerolineas.desacolar();
+        System.out.println("Abordando pasajero: " + embarqueAerolineas.primero()); // pasajero3
+        embarqueAerolineas.desacolar();
+        System.out.println("Abordando pasajero: " + embarqueAerolineas.primero()); // pasajero4
+        embarqueAerolineas.desacolar();
+        System.out.println("Abordando pasajero: " + embarqueAerolineas.primero()); // pasajero1
+        embarqueAerolineas.desacolar();
+        System.out.println("Abordando pasajero: " + embarqueAerolineas.primero()); // pasajero2
+        embarqueAerolineas.desacolar();
+
+    }
+
+    static void distribucionTickets() {
+        System.out.println("embarqueAerolineas");
+
+        ColaPrioridadEstaticaString distribucionTickets = new ColaPrioridadEstaticaString();
+        distribucionTickets.inicializarColaPrioridad();
+
+        distribucionTickets.acolarPrioridad("No me anda el mouse", 1);
+        distribucionTickets.acolarPrioridad("No me anda el teclado", 1);
+        distribucionTickets.acolarPrioridad("No le anda el mouse al gerente", 900);
+        distribucionTickets.acolarPrioridad("Sale humo del datancenter", 999);
+        distribucionTickets.acolarPrioridad("Se prendio una luz roja en un servidor", 998);
+
+        System.out.println("Procesando ticket: " + distribucionTickets.primero()); // proceso1
+        distribucionTickets.desacolar();
+        System.out.println("Procesando ticket: " + distribucionTickets.primero()); // proceso2
+        distribucionTickets.desacolar();
+        System.out.println("Procesando ticket: " + distribucionTickets.primero()); // proceso4
+        distribucionTickets.desacolar();
+        System.out.println("Procesando ticket: " + distribucionTickets.primero()); // proceso3
+        distribucionTickets.desacolar();
+        System.out.println("Procesando ticket: " + distribucionTickets.primero()); // proceso5
+        distribucionTickets.desacolar();
+
     }
 }
