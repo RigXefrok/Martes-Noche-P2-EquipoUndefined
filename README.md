@@ -8,7 +8,7 @@
 | de la Fuente Sebastián | 1220681 |
 | Garcia Leonel          | 1223947 |
 | Herrera Manuel Alvaro  | 1164449 |
-| Ruiz Diaz Luka         |         |
+| Ruiz Diaz Luka         | 1197562 |
 | You Hernan             | 1222528 |
 
 ## Actividad pilas - colas 17-03-2026
