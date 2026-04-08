@@ -123,4 +123,6 @@ Son los de prioridad 50 (procesos del sistema) y despues de que se hayan procesa
 
 ### Embarque de Aerolíneas
 
+Si dos personas llegan con la misma prioridad la persona que haya llegado primero es la que va a salir antes ya que implementa un Fifo aunque sea una cola de prioridad. Mismo caso explicado para la guardia del hospital de clinicas.
+
 ### Distribución de Tickets IT
