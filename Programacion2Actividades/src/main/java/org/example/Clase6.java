@@ -1,5 +1,7 @@
 package org.example;
 
+import ColasPrioridad.Implementacion.ColaPrioridadDinamica;
+import ColasPrioridad.Interface.ColaPrioridadTDA;
 import Pilas.Implementacion.PilaDinamica;
 import Pilas.Interfaces.PilaDinamicaTDA;
 
@@ -48,7 +50,43 @@ public class Clase6 {
 
     public void colas() {}
 
-    public void colasconPrioridad() {}
+    public void colasconPrioridad() {
+
+        ColaPrioridadTDA cola = new ColaPrioridadDinamica();
+
+        cola.InicializarColaPrioridad();
+        System.out.println("=== " + "Probando Cola con Prioridad Dinamica" + " ===");
+        System.out.println("¿Cola vacía?: " + cola.ColaVacia());
+
+        cola.AcolarPrioridad(20345768, "Veronica Andrada", 3);
+        cola.AcolarPrioridad(13452756, "Jose Perez",10);
+        cola.AcolarPrioridad(38456987, "Ana Gomez",1);
+        cola.AcolarPrioridad(40223143, "Marcelo Morales",10);
+
+        System.out.println("Primero: " + cola.Primero());
+
+        System.out.println("Prioridad del primero: " + cola.Prioridad());
+
+        cola.Desacolar();
+        System.out.println("Luego de desacolar:");
+        System.out.println("Primero: " + cola.Primero());
+        System.out.println("Prioridad del primero: " + cola.Prioridad());
+
+        cola.Desacolar();
+        System.out.println("Luego de desacolar:");
+        System.out.println("Primero: " + cola.Primero());
+        System.out.println("Prioridad del primero: " + cola.Prioridad());
+
+        cola.Desacolar();
+        System.out.println("Luego de desacolar:");
+        System.out.println("Primero: " + cola.Primero());
+        System.out.println("Prioridad del primero: " + cola.Prioridad());
+
+        cola.Desacolar();
+        System.out.println("¿Cola vacía?: " + cola.ColaVacia());
+
+
+    }
 
     public void conjuntos() {}
 
