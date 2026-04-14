@@ -1,4 +1,4 @@
-package colas.Implementacion;
+package colas.implementaciones;
 
 
 public class Node {
