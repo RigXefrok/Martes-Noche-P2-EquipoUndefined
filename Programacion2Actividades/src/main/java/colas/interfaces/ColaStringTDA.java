@@ -1,4 +1,4 @@
-package colas.Interface;
+package colas.interfaces;
 
 public interface ColaStringTDA {
     void inicializarCola();

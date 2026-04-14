@@ -1,7 +1,7 @@
-package colas.Implementacion;
+package colas.implementaciones;
 
 
-import colas.Interface.ColaTDA;
+import colas.interfaces.ColaTDA;
 
 public class ColaEstatica implements ColaTDA {
 
