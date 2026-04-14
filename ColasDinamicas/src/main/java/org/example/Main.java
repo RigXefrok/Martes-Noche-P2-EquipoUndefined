@@ -24,4 +24,8 @@ public class Main {
         filaDelCajero.desacolar(); //45001006
         System.out.println(filaDelCajero.colaVacia()); // true
     }
+
+    static void padronElectoral() {
+
+    }
 }
