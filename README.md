@@ -1,5 +1,15 @@
 # Martes-Noche-P2-EquipoUndefined
 
+## Índice
+1. [Integrantes equipo undefined](#integrantes-equipo-undefined)
+2. [Actividad pilas - colas 17-03-2026](#actividad-pilas---colas-17-03-2026)
+   - [Actividad 1](#actividad-1)
+   - [Actividad 2](#actividad-2)
+3. [Actividad Colas 31-03-2026](#actividad-colas-31-03-2026)
+4. [Actividad Colas 07-04-2026](#actividad-colas-07-04-2026)
+5. [Actividad Clase 14-04-2026](#actividad-clase-14-04-2026)
+
+
 ## Integrantes equipo undefined
 
 | Nombre                 | Legajo  |
@@ -126,3 +136,18 @@ Son los de prioridad 50 (procesos del sistema) y despues de que se hayan procesa
 Si dos personas llegan con la misma prioridad la persona que haya llegado primero es la que va a salir antes ya que implementa un Fifo aunque sea una cola de prioridad. Mismo caso explicado para la guardia del hospital de clinicas.
 
 ### Distribución de Tickets IT
+
+---
+
+## Actividad Clase 14-04-2026
+Para facilitar el trabajo colaborativo creamos un proyecto de java dentro de [Programacion2Actividades](Programacion2Actividades/) en donde almacenaremos el codigo realizado en Actividades realizadas durante las clases.
+Para esta ocasion el codigo se encuentra dentro de [Clase6.java Programacion2Actividades](Programacion2Actividades/src/main/java/org/example/Clase6.java)
+
+Ejercicios de la guia seleccionados para cada estructura
+- colas: Fila del Cajero
+- colas con prioridad: Embarque de Aerolineas
+- Pila Dinamica: Historial de Navegacion
+- Conjuntos: Padron electoral
+- diccionarios: Agenda de Contactos
+- diccionarios dinamicos: Diccionario de Sinonimos 
+
