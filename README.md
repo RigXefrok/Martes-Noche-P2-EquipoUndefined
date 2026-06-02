@@ -151,3 +151,20 @@ Ejercicios de la guia seleccionados para cada estructura
 - diccionarios: Agenda de Contactos
 - diccionarios dinamicos: Diccionario de Sinonimos 
 
+## Actividad Clase 13: 02-06-26
+EJERCICIO 1 — Construcción de ABB
+Insertá en un ABB inicialmente vacío los siguientes valores en este orden: 
+
+50, 30, 70, 20, 40, 60, 80.
+
+1.Describí el árbol resultante nodo por nodo.
+2.Indicá el recorrido In-orden y la altura del árbol medida en aristas (hoja = altura 0).
+
+          50
+         /    \
+       30      70
+      /  \      /  \
+     20  40    60  80
+
+Recorrido in-orden: 20, 30, 40 50, 60, 70, 80
+
