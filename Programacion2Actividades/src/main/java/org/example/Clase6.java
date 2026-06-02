@@ -55,6 +55,7 @@ public class Clase6 {
     }
 
     public void colas() {
+        System.out.println("=== " + "Probando Colas Dinamicas" + " ===");
         ColaDinamica filaDelCajero = new ColaDinamica();
         filaDelCajero.inicializarCola();
         filaDelCajero.acolar(45001002);
@@ -111,6 +112,7 @@ public class Clase6 {
     }
 
     public void conjuntos() {
+        System.out.println("=== " + "Probando Conjuntos Dinamicos" + " ===");
         ConjuntoDinamico padronElectoral = new ConjuntoDinamico();
         padronElectoral.inicializarConjunto();
 

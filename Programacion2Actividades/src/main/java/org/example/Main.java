@@ -4,7 +4,8 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main() {
-        Clase6 clase6 = new Clase6();
+//        Clase6 clase6 = new Clase6();
+        Clase13 clase13 = new Clase13();
     }
 }
 
