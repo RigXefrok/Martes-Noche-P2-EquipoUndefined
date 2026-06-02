@@ -167,4 +167,4 @@ Insertá en un ABB inicialmente vacío los siguientes valores en este orden:
      20  40    60  80
 
 Recorrido in-orden: 20, 30, 40 50, 60, 70, 80
-
+Altura: 3
