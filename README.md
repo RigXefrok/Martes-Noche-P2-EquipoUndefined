@@ -168,3 +168,20 @@ Insertá en un ABB inicialmente vacío los siguientes valores en este orden:
 
 Recorrido in-orden: 20, 30, 40 50, 60, 70, 80
 Altura: 3
+
+EJERCICIO 2 — Traza de Búsqueda
+Sobre el árbol anterior, trazá la búsqueda del valor 55.
+1.Indicá la secuencia de nodos visitados (→).
+2.Indicá la cantidad de comparaciones de clave (el chequeo contra null no cuenta).
+
+- Paso 1: Se compara con la raíz 50. Como 55 > 50, la búsqueda continúa por el subárbol derecho.
+- Paso 2: Se compara con el nodo 70. Como 55 < 70, la búsqueda continúa por el subárbol izquierdo.
+- Paso 3: Se compara con el nodo 60. Como 55 < 60, la búsqueda debería continuar por el subárbol izquierdo.
+- Fin: El hijo izquierdo de 60 es null, lo que significa que el valor 55 no se encuentra en el árbol.
+
+Cantidad de comparaciones: 3
+
+EJERCICIO 3 — Eliminación en ABB 
+Sobre el árbol del Ejercicio 1, eliminá el nodo 30 usando el criterio del sucesor in-orden.
+1.Indicá el caso de eliminación (hoja / un hijo / dos hijos).
+2.Identificá el valor del sucesor in-orden y describí el árbol resultante.
